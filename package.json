@@ -1,0 +1,23 @@
+{
+  "name": "@entando/webui-ootb-components",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "jsx-lite build",
+    "lint": "eslint"
+  },
+  "exports": {
+    "./react/*": "./dist/react/src/*",
+    "./figma/*": "./dist/figma/src/*",
+    "./qoot/*": "./dist/qoot/src/*",
+    "./vue/*": "./dist/vue/src/*",
+    "./svelte/*": "./dist/svelte/src/*",
+    "./angular/*": "./dist/angular/src/*",
+    "./html/*": "./dist/html/src/*",
+    "./solid/*": "./dist/solid/src/*"
+  },
+  "dependencies": {
+    "@builder.io/html-to-figma": "^0.0.2-2",
+    "@jsx-lite/cli": "0.0.5",
+    "eslint": "^7.21.0"
+  }
+}
